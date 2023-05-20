@@ -19,3 +19,16 @@ Press CTRL+C to quit
  * Debugger PIN: 389-932-572
 
 Grace à l'application "Insomnia" nous pouvons utiliser les différentes fonctions qui permettent de modifier la base de donnée avec du "json".
+
+Ex :
+http://127.0.0.1:5000/client
+En json 
+{
+	"ID_client":"2",
+	"Nom":"Lukas",
+	"Adresse": "rue bis, Paris",
+	"Email": "lukas@gmail.com",
+	"Telephone": "06",
+	"Code_IBAN": "FR",
+	"Code_BIC_SWIFT": "xxxx"
+}
