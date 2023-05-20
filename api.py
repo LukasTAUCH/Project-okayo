@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 
 app = Flask(__name__)                                                        # Creer une instance Flask
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/okayo'  # Pour de connecter l instance à ma base de donnée
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/okayo'  # Pour de connecter l instance à ma base de données
 db = SQLAlchemy(app)                                                         # Permet d initialiser un nouveau objet SQLAlchemy
 ma = Marshmallow(app)                                                        # Initialise l objet Marshmallow
 
@@ -44,7 +44,7 @@ def add_client():
     db.session.commit()
     return client_schema.jsonify(new_client)
 
-@app.route("/client", methods=["GET"])                                  # Permet avec la method Get d avoir toutes les infos de tous les clients dans ma base de donnée
+@app.route("/client", methods=["GET"])                                  # Permet avec la method Get d avoir toutes les infos de tous les clients dans ma base de données
 def get_clients():
     all_clients = Clients.query.all()
     return clients_schema.jsonify(all_clients)
