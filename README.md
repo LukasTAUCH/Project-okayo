@@ -8,6 +8,7 @@ de cette fonctionnalité.
 Avec cette base de donnée, nous respectons les 3 conditions :
 
 - Le total TTC d'une facture reste constant, même si les prix du catalogue changent :
+
 chaque ligne de la facture, stockée dans la table Lignes_Facture, conserve le prix unitaire HT du produit et le taux de TVA au moment de la création de la facture. 
 Ainsi, même si le prix du produit ou le taux de TVA change dans le catalogue, le total TTC de la facture ne change pas car il est calculé à partir des données de la table Lignes_Facture et non directement du catalogue.
 
