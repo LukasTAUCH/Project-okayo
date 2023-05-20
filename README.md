@@ -5,7 +5,7 @@ Voici le fichier sujet.sql qui permet de décrire le modèle de données relatio
 de cette fonctionnalité.
 
 ### Conditions
-Avec cette base de donnée, nous respectons les 3 conditions :
+Avec cette base de données, nous respectons les 3 conditions :
 
 - Le total TTC d'une facture reste constant, même si les prix du catalogue changent :
 
@@ -45,7 +45,7 @@ Press CTRL+C to quit
  * Debugger PIN: 389-932-572
 ```
 
-Grace à l'application "Insomnia" nous pouvons utiliser les différentes fonctions qui permettent de modifier la base de donnée avec du "json".
+Grace à l'application "Insomnia" nous pouvons utiliser les différentes fonctions qui permettent de modifier la base de données avec du "json".
 
 ```
 Ex :
