@@ -67,3 +67,4 @@ Avec ces tables :
 - Chaque ligne correspond à un produit spécifique 
 - Chaque produit peut avoir un taux TVA associé
 - Chaque tables sont liées par des clés étrangères pour assurer l'intégrité des données
+*/
