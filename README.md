@@ -18,4 +18,4 @@ Press CTRL+C to quit
  * Debugger is active!
  * Debugger PIN: 389-932-572
 
-Grace à l'application "Insomnia" nous pouvons utiliser les différentes fonctions qui permettent de modifier la base de donné avec du "json".
+Grace à l'application "Insomnia" nous pouvons utiliser les différentes fonctions qui permettent de modifier la base de donnée avec du "json".
